@@ -462,25 +462,37 @@ header .mreservation a:hover{
 {
     header
     {
-        padding: 30px 50px;
+        padding: 30px 25px;
     }
-
+    header .logo
+    {
+        font-size: 1.4em;
+    }
+    header .mreservation a 
+    {
+        font-size: 0.8em;
+        padding: 10px 10px;
+    }
     .details h2
     {
-        font-size: 2em;
+        font-size: 1.6em;
     }
     .details .second
     {
-        font-size: 2em;
+        font-size: 1.6em;
         padding-bottom:15px;
     }
     .details p
     {
-        font-size: 1em;
+        font-size: 0.8em;
     }
     .about
     {
         flex-direction: column;
+    }
+    .about .info a:first-child
+    {
+        margin-bottom: 15px;
     }
     .subtitulo
     {
@@ -500,6 +512,11 @@ header .mreservation a:hover{
     {
         max-width: 100%;
         display: none;
+    }
+    .img-info img 
+    {
+
+        width: 100%;
     }
     .room-img img
     {
@@ -538,7 +555,7 @@ header .mreservation a:hover{
     }
     .info1 ul
     {
-        font-size: 12px;
+        font-size: 9px;
         line-height: 35px;
         padding: 0 25px;
         text-align: center;
@@ -559,9 +576,12 @@ header .mreservation a:hover{
     }
     .redes
     {
-       width: 500px;
+       width: auto;
     }
-
+    .redes .copy 
+    {
+        display: none;
+    }
     .listi1
     {
         height: 766px;
